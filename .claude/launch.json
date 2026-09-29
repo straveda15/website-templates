@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard-shell",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--workspace", "packages/dashboard-shell"],
+      "port": 3001,
+      "autoPort": true
+    },
+    {
+      "name": "furniture-website",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--workspace", "templates/furniture"],
+      "port": 3000
+    },
+    {
+      "name": "backend-core",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--workspace", "packages/backend-core"],
+      "port": 5000
+    },
+    {
+      "name": "superadmin",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--workspace", "apps/superadmin"],
+      "port": 4000
+    }
+  ]
+}

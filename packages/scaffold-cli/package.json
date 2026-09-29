@@ -1,0 +1,14 @@
+{
+  "name": "@platform/scaffold-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generates a standalone client repo (website + dashboard + backend + DB) from a template.",
+  "bin": {
+    "scaffold": "scaffold.js"
+  },
+  "main": "lib/generateProject.js",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "pg": "^8.23.0"
+  }
+}

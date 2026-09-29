@@ -1,0 +1,18 @@
+{
+  "name": "website-templates-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Factory workspace: shared packages + templates used to generate standalone client website/dashboard/backend stacks.",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "templates/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace packages/backend-core",
+    "dev:dashboard": "npm run dev --workspace packages/dashboard-shell",
+    "dev:furniture": "npm run dev --workspace templates/furniture",
+    "scaffold": "node packages/scaffold-cli/scaffold.js"
+  },
+  "license": "ISC"
+}

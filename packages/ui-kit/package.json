@@ -1,0 +1,16 @@
+{
+  "name": "@platform/ui-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generic, prop/config-driven website building blocks (Navbar, Footer, Hero, CardGrid, ContactSection, ProductGrid, Testimonials, CTA) shared by every template.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "react-icons": "^5.7.0"
+  },
+  "peerDependencies": {
+    "next": ">=15",
+    "react": ">=19",
+    "react-dom": ">=19"
+  }
+}
